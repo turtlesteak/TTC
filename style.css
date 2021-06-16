@@ -1,0 +1,38 @@
+@font-face{
+    font-family: 'TankTrouble';
+    src:url('../media/fonts/TankTrouble.eot');
+    src:url('../media/fonts/TankTrouble.eot?#iefix') format('embedded-opentype'),
+    /* url('../media/fonts/TankTrouble.woff2') format('woff2'), */
+    /* url('../media/fonts/TankTrouble.woff') format('woff'), */
+    /* url('../media/fonts/TankTrouble.svg') format('svg');; */
+    url('TankTrouble.ttf')  format('truetype'),
+}
+
+a {
+    color: grey;
+}
+    
+    
+a:hover {
+    color: white;
+}
+
+ul {
+    font-size:20pt; font-weight: bold; text-align:center; color: #000000; margin:5px 25px; border-radius: 5px;
+    /* list-style: none; */
+    padding-left: 0;
+}
+
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    flex: 1 0 auto;
+}
+.footer {
+    flex-shrink: 0;
+}
