@@ -14,8 +14,12 @@ a:hover {
 }
 
 ul {
-    font-size:20pt; font-weight: bold; text-align:center; color: #000000; margin:5px 25px; border-radius: 5px;
-    /* list-style: none; */
+    font-size:20pt; 
+    font-weight: bold; 
+    text-align:center; 
+    color: #000000; 
+    margin:5px 25px; 
+    border-radius: 5px;
     padding-left: 0;
 }
 
@@ -35,17 +39,15 @@ body {
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
     background-color: #666666;
+    background-image: linear-gradient(to bottom, rgb(37, 37, 37), rgb(139, 139, 139));
 }
 
 ::-webkit-scrollbar-track {
-    border-radius: 10px;
-    box-shadow: inset 0 0 5px; 
-    /* background-color: #f1f1f1; */
-    /* background-color: #333333; */
+    background-image: linear-gradient(to bottom, rgb(139, 139, 139), rgb(37, 37, 37));
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #444444;  
+    background: red;  
 }
 
 footer {
